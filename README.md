@@ -12,20 +12,20 @@ Das Interface wird auf deutsch sein. Der Code selbst auf Englisch.
 The following standards & technologies should be used:
 
  * HTML5 & JavaScript that are supported by Chrome 80
- ** Harmony modules (https://v8.dev/features/modules & https://javascript.info/modules-dynamic-imports)
- ** Asynchronous functions and promises
- ** JavaScript class syntax (https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Klassen)
- ** Visual Studio Code as editor (https://code.visualstudio.com/)
+   * Harmony modules (https://v8.dev/features/modules & https://javascript.info/modules-dynamic-imports)
+   * Asynchronous functions and promises
+   * JavaScript class syntax (https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Klassen)
+   * Visual Studio Code as editor (https://code.visualstudio.com/)
  * WMS, WFS and WFS-T
- ** geoserver (http://geoserver.org/)
- ** openlayers from CDN (https://openlayers.org/)
+   * geoserver (http://geoserver.org/)
+   * openlayers from CDN (https://openlayers.org/)
  * GitHub Pages (https://pages.github.com/) for hosting the static assets of the website
  * Amazon Web Services for server logic
- ** Copy of WFS-T request to Amazon MQ via WebSocket
- *** Topic for job offers called job-offers
- *** Topic for job seekers called job-seekers
- ** Amazon Lambda
- ** Amazon SNS
+   * Copy of WFS-T request to Amazon MQ via WebSocket
+     * Topic for job offers called job-offers
+     * Topic for job seekers called job-seekers
+   * Amazon Lambda
+   * Amazon SNS
 
 
 The following thing should not be used:
